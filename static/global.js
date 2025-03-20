@@ -19,12 +19,12 @@
 const ARE_WE_HOME = document.documentElement.classList.contains("home");
 
 let pages = [
-    {url: "./", title : "Home"},
-    {url: "projects", title : "Projects"},
-    {url: "contact", title : "Contact"},
+    {url: "/", title : "Home"},
+    {url: "/projects", title : "Projects"},
+    {url: "/contact", title : "Contact"},
     {url: "https://github.com/kauanmaf", title : "GitHub"}
-
 ];
+
 
 let nav = document.createElement("nav");
 document.body.prepend(nav);
