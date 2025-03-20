@@ -1,10 +1,7 @@
-
-<!-- <nav>
-    <a href="../index.html" >Home</a>
-    <a href="index.html">Currículo</a>
-    <a href="../contact/index.html">Contact</a>
-
-</nav> -->
+<script>
+    import projects from "$lib/projects.json";
+</script>
+<pre>{ JSON.stringify(projects, null, "\t") }</pre>
 <h1>Kauan Mariani Ferreira</h1>
 <h2 style="color:deeppink;">Formação Acadêmica</h2>
 <ul>
