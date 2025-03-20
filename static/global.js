@@ -32,9 +32,9 @@ document.body.prepend(nav);
 for (let p of pages) {
     console.log(p)
     let url = p.url;
-    if (!ARE_WE_HOME && !url.startsWith("http")) {
-        url = "../" + url;
-    }
+    // if (!ARE_WE_HOME && !url.startsWith("http")) {
+    //     url = "../" + url;
+    // }
     let title = p.title;
     
     // Create link and add it to nav
