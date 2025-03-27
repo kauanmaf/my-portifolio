@@ -7,16 +7,14 @@
 }
 
 body {
-	/* Set line height to 1.5 times the font size
-	   and use the OS’s UI font as the website font
-	 */
+
 	font: 100%/1.5 system-ui;
 	max-width: 100ch;
 	margin-inline: auto;
-	/* margin-inline: max(1em, (100% - 100ch)/2); */
+
 	padding: 1cm;
 }
-nav{
+/* nav{
 	display: flex;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
@@ -45,7 +43,7 @@ a:hover{
 	padding-bottom: -0.1em;
 	background-color: var(--color-accent-bg);
 
-}
+} */
 
 /* input, textarea, button {
 	font: inherit;
@@ -79,3 +77,11 @@ form label{
 label, button{
 	grid-column: 1/-1;
 }
+.color-scheme{
+	position:absolute;
+	top: 1rem;
+	right: 1rem;
+	display: inline-flex;
+	gap: 5px;
+}
+
