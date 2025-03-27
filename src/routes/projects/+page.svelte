@@ -4,7 +4,7 @@
 <script>
     import projects from "$lib/projects.json";
 </script>
-<pre>{ JSON.stringify(projects, null, "\t") }</pre>
+<!-- <pre>{ JSON.stringify(projects, null, "\t") }</pre> -->
 <h1>Kauan Mariani Ferreira</h1>
 <h2 style="color:deeppink;">Formação Acadêmica</h2>
 <ul>
