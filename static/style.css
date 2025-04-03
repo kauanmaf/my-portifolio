@@ -85,3 +85,22 @@ label, button{
 	gap: 5px;
 }
 
+
+.projects {
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+gap: 1rem; /* Espaço entre os projetos */
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+.projects {
+	grid-template-columns: repeat(2, 1fr); /* 2 colunas no tablet */
+}
+}
+
+@media (max-width: 480px) {
+.projects {
+	grid-template-columns: 1fr; /* 1 coluna no celular */
+}
+}

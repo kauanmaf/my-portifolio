@@ -7,6 +7,8 @@
 <!-- <p> (Paragraph) represents a paragraph of text.-->
 <p> Olá, meu nome é Kauan e eu sou de Santa Catarina</p>
 
+
+
 <!-- <img> (Image) tag is used to display images.-->
 <img src="" alt="">
     <!-- Example:
