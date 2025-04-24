@@ -104,7 +104,7 @@ usableArea.height = usableArea.bottom - usableArea.top;
   $: maxDatePlusOne = new Date(maxDate);
   $: maxDatePlusOne.setDate(maxDatePlusOne.getDate() + 1);
 
-  $: timeScale = d3.scaleTime().domain([minDate,maxDate]).range([0,100]);
+  $: timeScale = d3.scaleTime().domain([minDate,maxDatePlusOne]).range([0,100]);
   $: commitMaxTime = timeScale.invert(commitProgress);
   $: filteredCommits = commits.filter(commit => commit.datetime < commitMaxTime);
   $: filteredminDate = d3.min(filteredCommits.map(d => d.date));
