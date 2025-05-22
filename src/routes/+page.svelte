@@ -51,6 +51,10 @@
 {/if}
 
 <style>
+  :global(body){
+    max-width: min(120ch, 80vw);
+
+  }
     dl{
     display: grid;
     grid-template-columns: auto;
